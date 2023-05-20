@@ -1,6 +1,6 @@
 ﻿# :pencil2: Mini Projeto: [Loja Virtual Responsiva](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rayane-ms/projeto-html-css-bootstrap/main/index.html)
  
-  Projeto desenvolvido durante o programa [Instituto Nu](https://institutonu.com.br), realizado pela empresa NuBank em parceria com a Descomplica.
+ Projeto desenvolvido durante o programa [Instituto Nu](https://institutonu.com.br), realizado pela empresa NuBank em parceria com a Descomplica.
  
  ## :desktop_computer:	Tecnologias:
  - HTML5
