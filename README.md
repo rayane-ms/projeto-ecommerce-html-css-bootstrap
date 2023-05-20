@@ -6,8 +6,7 @@
  - HTML5
  - CSS3
  - BootStrap5
- 
- 
+
 ## :books: Descrição do Projeto:
 
 O projeto visa o desenvolvimento de um site para uma loja virtual, utilzando a linguagem HTML para desenvolver a sintaxe do site e as ferramentas CSS e Bootstrap para desenvolver os estilos do site.
@@ -20,6 +19,5 @@ O projeto visa o desenvolvimento de um site para uma loja virtual, utilzando a l
 - Uma seção "Sobre Nós", que apresente uma imagem e conte uma breve história sobre a empresa;
 - Uma seção "Equipe", com fotos e descrições sobre a equipe da loja;
 - Um rodapé com informações sobre a loja.
-
 
 [^1]: O acesso através do link de referência, sem realizar o download do arquivo do projeto, pode fazer com que algumas funções do Bootstrap, como o carousel, não funcionem corretamente.
