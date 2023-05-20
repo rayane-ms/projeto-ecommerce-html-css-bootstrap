@@ -1,6 +1,6 @@
 ﻿# :pencil2: Mini Projeto: Loja Virtual Responsiva
  
-  Projeto desenvolvido durante o programa Instituto Nu, realizado pela empresa NuBank em parceria com a Descomplica.
+  Projeto desenvolvido durante o programa [Instituto Nu](https://institutonu.com.br), realizado pela empresa NuBank em parceria com a Descomplica.
  
  ## :desktop_computer:	Tecnologias:
  - HTML5
