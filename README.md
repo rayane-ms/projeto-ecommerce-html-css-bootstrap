@@ -1,4 +1,4 @@
-﻿# :pencil2: Mini Projeto: [Loja Virtual Responsiva](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rayane-ms/projeto-html-css-bootstrap/main/index.html)
+﻿# :pencil2: Mini Projeto: [Loja Virtual Responsiva](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rayane-ms/projeto-html-css-bootstrap/main/index.html)[^1]
  
   Projeto desenvolvido durante o programa [Instituto Nu](https://institutonu.com.br), realizado pela empresa NuBank em parceria com a Descomplica.
  
@@ -22,3 +22,5 @@ O projeto visa o desenvolvimento de um site para uma loja virtual, utilzando a l
 - Um rodapé com informações sobre a loja.
 
 https://htmlpreview.github.io/?https://raw.githubusercontent.com/rayane-ms/projeto-html-css-bootstrap/main/index.html
+
+O acesso através do link de referência, sem realizar o download do arquivo do projeto, pode fazer com que algumas funções do Bootstrap, como o carousel, não funcionem corretamente.[^1]
