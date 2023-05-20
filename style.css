@@ -1,0 +1,88 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+
+/* Estilos */
+#brandName{
+    font-family: 'Charmonman', cursive;
+    font-size: 2.5em;
+}
+
+h2{
+    font-family: 'Charmonman', cursive;
+    font-weight: 600;
+    color: #ce2727;
+}
+
+#nomeTime{
+    font-family: 'Charmonman', cursive;
+    font-size: 1.5em;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+.carousel-inner>.carousel-item>img{
+margin-top: 2.5em;
+}
+
+#brandName>span{
+    color: #ce2727;
+}
+
+.btnColor{
+    color: white !important;
+    background-color: #ce2727 !important;
+}
+
+.btnColor:hover{
+    color: #ce2727 !important;
+    background-color: #facbce !important;
+    font-weight: 700;
+}
+
+.disabled>.btnColor{
+    background-color: #facbce !important;
+    color: #ce2727 !important;
+    font-weight: 600 !important;
+}
+
+p.truncate-3l{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#textoTime{
+    background-color: #ce27271b;
+}
+
+
+
+.cardTitulo{
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #ce2727;
+    margin-top: 0.25em;
+}
+
+.card-header{
+    font-size: 1.3em;
+}
+
+.footerConteudo:hover{
+    color: #ce2727 ;
+}
+
+.linkCor{
+    color: gray;
+}
+
+#timeTextoSec{
+    color: white;
+    text-shadow: 0px 1px 0 #ce2727;
+}

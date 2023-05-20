@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINKS BOOTSTRAP / CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- LINKS FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Projeto - Floricultura Mistic Rose</title>
+</head>
+
+<body style="min-width:372px;">
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom shadow-sm mb-3">
+        <div class="container">
+            <a id="brandName" class="navbar-brand" href="">Mistic <span>Rose</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navHeaderCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navHeaderCollapse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="index.html">Principal</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="#contatosFooter">Fale Conosco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="#nossosProdutos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="#sobreNos">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="#nossaEquipe">Nosso Time</a>
+                    </li>
+                </ul>    
+                <div class="align-self-end">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item pt-2">
+                            <a href="#" class="nav-link">Ajuda</a>
+                        </li>
+                        <li class="nav-item pt-2">
+                            <a href="#" class="nav-link">Perfil</a>
+                        </li>
+                        <li class="nav-item pt-2">
+                            <a href="#" class="nav-link">Pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="bi bi-bag" style="font-size:24px;" fill="currentColor"></i></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+    <header class="container my-5">
+        <section id="carouselMain" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center" data-interval="3000">
+                    <img src="img/Carousel/Cesta G.jpg" class="img-fluid d-none d-md-block w-100" alt="Promoção cestas e flores natalinas a partir de 69 reais e 99 centavos. Imagem de uma cesta de natal">
+                    <img src="img/Carousel/Cesta P.jpg" class="img-fluid d-block d-md-none w-100" alt="Promoção cestas e flores natalinas a partir de 69 reais e 99 centavos. Imagem de uma cesta de natal">
+                </div>
+                <div class="carousel-item text-center" data-interval="3000">
+                    <img src="img/Carousel/Festas G.jpg" class="img-fluid d-none d-md-block w-100" alt="A Floricultura Mistic Rose deseja à todos boas festas.">
+                    <img src="img/Carousel/Festas P.jpg" class="img-fluid d-block d-md-none w-100" alt="A Floricultura Mistic Rose deseja à todos boas festas.">
+                </div>
+                <div class="carousel-item text-center" data-interval="3000">
+                    <img src="img/Carousel/Outubro rosa G.jpg" class="img-fluid d-none d-md-block w-100" alt="Promoção de outubro rosa, todas as rosas com desconto. Mulher segurando um buquê de rosas cor de rosa.">
+                    <img src="img/Carousel/Outubro rosa P.jpg" class="img-fluid d-block d-md-none w-100" alt="Promoção de outubro rosa, todas as rosas com desconto. Mulher segurando um buquê de rosas cor de rosa.">
+                </div>
+                <div class="carousel-item text-center" data-interval="3000">
+                    <img src="img/Carousel/Novembro azul G.jpg" class="img-fluid d-none d-md-block w-100" alt="Promoção de novembro azul, todas as orquídeas azuis por apenas 149 reais e 90 centavos. Mulher segurando um buquê de rosas azuis.">
+                    <img src="img/Carousel/Novembro azul P.jpg" class="img-fluid d-block d-md-none w-100" alt="Promoção de novembro azul, todas as orquídeas azuis por apenas 149 reais e 90 centavos. Mulher segurando um buquê de rosas azuis.">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </section>
+    </header>
+
+    <main>
+        <!-- PRODUTOS -->
+        <section id="nossosProdutos" class="container mb-3">
+            <!-- BUSCA -->
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <form class="justify-content-center justify-content-md-start mb-3 mb-md-0">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" placeholder="Digite sua busca">
+                            <button class="btnColor btn">
+                                Buscar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                        <form class="ml-3 d-inline-block">
+                            <select class="form-select form-select-sm">
+                                <option>Ordenação padrão</option>
+                                <option>Nome</option>
+                                <option>Menor preço</option>
+                                <option>Maior preço</option>
+                            </select>
+                        </form>
+                        <nav class="d-inline-block">
+                            <ul class="pagination pagination-sm my-0">
+                                <li class="page-item disabled">
+                                    <button class="btnColor page-link">1</button>
+                                </li>
+                                <li class="page-item">
+                                    <button class="btnColor page-link">2</button>
+                                </li>
+                                <li class="page-item">
+                                    <button class="btnColor page-link">3</button>
+                                </li>
+                                <li class="page-item">
+                                    <button class="btnColor page-link">4</button>
+                                </li>
+                                <li class="page-item">
+                                    <button class="btnColor page-link">5</button>
+                                </li>
+                                <li class="page-item">
+                                    <button class="btnColor page-link">6</button>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-3">
+            <!-- CARDS -->
+            <div class="row g-3">
+                <div class="col-xl-2 col-md-4 col-sm-6 d-flex">
+                    <div class="card text-center bg-light border-danger">
+                        <a href="#" class="position-absolute align-self-end p-2 text-danger">
+                            <i class="bi bi-heart" style="font-size:24px;"></i>
+                        </a>
+                        <img src="img/Produtos/Produto 1.jpg" class="card-img-top" alt="">
+                        <div class="card-header">
+                            R$159,90
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title cardTitulo">12 Gérberas Coloridas</h5>
+                            <p class="card-text truncate-3l">Vaso composto por 12 gérberas de cores sortidas. Essas flores nacionais deixam tudo mais alegre e cheio de vida.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block">
+                                <button id="btnCarrinho" class="btnColor btn">
+                                    Adicionar ao Carrinho
+                                </button>
+                            </form>
+                            <small class="text-success">Imagem similar ao produto oferecido.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-6 d-flex">
+                    <div class="card text-center bg-light border-danger">
+                        <a href="#" class="position-absolute align-self-end p-2 text-danger">
+                            <i class="bi bi-heart" style="font-size:24px;"></i>
+                        </a>
+                        <img src="img/Produtos/Produto 2.jpg" class="card-img-top" alt="">
+                        <div class="card-header">
+                            R$119,90
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title cardTitulo">Buquê de 6 Girassóis</h5>
+                            <p class="card-text truncate-3l">A flor do sol é um tipo de flor do campo. O amarelo alegra quem recebe seu arranjo. </p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="">
+                                <button class="btn btn-light disabled" disabled>
+                                    <small>Reabastecendo Estoque</small>
+                                </button>
+                            </div>
+                            <small class="text-danger"><b>Produto Esgotado</b></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-6 d-flex">
+                    <div class="card text-center bg-light border-danger">
+                        <a href="#" class="position-absolute align-self-end p-2 text-danger">
+                            <i class="bi bi-heart" style="font-size:24px;"></i>
+                        </a>
+                        <img src="img/Produtos/Produto 3.jpg" class="card-img-top" alt="">
+                        <div class="card-header">
+                            R$269,90
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title cardTitulo">Buquê de 36 Rosas Vermelhas</h5>
+                            <p class="card-text truncate-3l">Amor e paixão são sentimentos mais do que especiais. Para acompanhar um momento especial, como um pedido de namoro ou casamento, um buquê confeccionado com 36 rosas vermelhas é uma ótima opção. </p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block">
+                                <button id="btnCarrinho" class="btnColor btn">
+                                    Adicionar ao Carrinho
+                                </button>
+                            </form>
+                            <small class="text-success">Imagem similar ao produto oferecido.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-6 d-flex">
+                    <div class="card text-center bg-light border-danger">
+                        <a href="#" class="position-absolute align-self-end p-2 text-danger">
+                            <i class="bi bi-heart" style="font-size:24px;"></i>
+                        </a>
+                        <img src="img/Produtos/Produto 4.jpg" class="card-img-top" alt="">
+                        <div class="card-header">
+                            R$209,90
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title cardTitulo">Orquídea Pink e Kit Natura</h5>
+                            <p class="card-text truncate-3l">Esse conjunto é composto por uma bela orquídea phalaenopsis de cor pink, acompanhada por uma caixa de sabonetes em barra e um frasco de sabonete líquido facial, produtos totalmente naturais da linha Natura Tododia.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block">
+                                <button id="btnCarrinho" class="btnColor btn">
+                                    Adicionar ao Carrinho
+                                </button>
+                            </form>
+                            <small class="text-success">Imagem similar ao produto oferecido.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-6 d-flex">
+                    <div class="card text-center bg-light border-danger">
+                        <a href="#" class="position-absolute align-self-end p-2 text-danger">
+                            <i class="bi bi-heart" style="font-size:24px;"></i>
+                        </a>
+                        <img src="img/Produtos/Produto 5.jpg" class="card-img-top" alt="">
+                        <div class="card-header">
+                            R$279,90
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title cardTitulo">Cesta de Café da Manhã Natalina</h5>
+                            <p class="card-text truncate-3l">Essa linda cesta é composta por produtos de alta qualidade que alegrarão os cafés da manhã no período das festas de fim de ano.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block">
+                                <button id="btnCarrinho" class="btnColor btn">
+                                    Adicionar ao Carrinho
+                                </button>
+                            </form>
+                            <small class="text-success">Imagem similar ao produto oferecido.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-6 d-flex">
+                    <div class="card text-center bg-light border-danger">
+                        <a href="#" class="position-absolute align-self-end p-2 text-danger">
+                            <i class="bi bi-heart-fill" style="font-size:24px;"></i>
+                        </a>
+                        <img src="img/Produtos/Produto 6.jpg" class="card-img-top" alt="">
+                        <div class="card-header">
+                            R$159,90
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title cardTitulo">Buquê de 12 Rosas e Pelúcia</h5>
+                            <p class="card-text truncate-3l">Um conjunto que simboliza o amor e o carinho que temos pelas pessoas que são queridas para nós.</p>
+                        </div>
+                        <div class="card-footer">
+                            <form class="d-block">
+                                <button id="btnCarrinho" class="btnColor btn">
+                                    Adicionar ao Carrinho
+                                </button>
+                            </form>
+                            <small class="text-success">Imagem similar ao produto oferecido.</small>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-3">
+                <div class="row pb-4">
+                    <div class="col-12">
+                        <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                            <form class="ml-3 d-inline-block">
+                                <select class="form-select form-select-sm">
+                                    <option>Ordenação padrão</option>
+                                    <option>Nome</option>
+                                    <option>Menor preço</option>
+                                    <option>Maior preço</option>
+                                </select>
+                            </form>
+                            <nav class="d-inline-block">
+                                <ul class="pagination pagination-sm my-0">
+                                    <li class="page-item disabled">
+                                        <button class="btnColor page-link">1</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="btnColor page-link">2</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="btnColor page-link">3</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="btnColor page-link">4</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="btnColor page-link">5</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="btnColor page-link">6</button>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <hr class="">
+            </div>
+        </section>
+        
+        <!-- SOBRE NÓS -->
+        <section id="sobreNos" class="row g-3 justify-content-center">
+            <div class="row col-lg-8 col-xs-12 align-items-center">
+                <div id="textoSobre" class="pe-5 ps-5 text-md-end text-center col">
+                    <h2 class=""><br>SOBRE NÓS</br></h2>
+                    <p class="">Criada no Rio de Janeiro por um casal que buscava manter o romantismo na cidade, a Floricultura Mistic Rose nasce do desejo de levar amor ao mundo através das flores. Acreditamos que presentear uma pessoa querida com belas flores tem o poder de transformar o mundo num lugar melhor.</p>
+                </div>
+                <div class="p-2 col">
+                    <figure class="text-center">
+                        <img src="img/Sobre.jpg" alt="Imagem de uma mulher segurando um buquê" class="rounded-circle">
+                    </figure>
+                </div>
+                <hr class="">
+            </div>
+        </section>
+
+        <!-- EQUIPE -->
+        <section id="nossaEquipe" class="row g-3 justify-content-center">
+            <div class="row align-items-center">
+                <div id="textoTime" class="text-center py-3 mb-3">
+                    <h2 class="font-weight-bold mt-2">NOSSO TIME</h2>
+                    <p id="timeTextoSec" class="text-secondary" style="font-size: 1.1em;">Em busca de transformar o dia a dia</p>
+                </div>
+                <div id="pessoasTime" class="row p-2">
+                    <figure class="col text-center">
+                        <img src="img/Nosso time/Pessoa 1.jpg" alt="Foto de uma mulher sorrindo" class="rounded-circle border border-danger">
+                        <figcaption id="nomeTime" class="mt-3"><i class="bi bi-flower2 text-danger"></i> Maisa Saraiva </figcaption>
+                    </figure>
+                    <figure class="col text-center">
+                        <img src="img/Nosso time/Pessoa 2.jpg" alt="Foto de uma mulher sorrindo" class="rounded-circle border border-danger">
+                        <figcaption id="nomeTime" class="mt-3"><i class="bi bi-flower2 text-danger"></i> Luciana Oliveira </figcaption>
+                    </figure>
+                    <figure class="col text-center">
+                        <img src="img/Nosso time/Pessoa 3.jpg" alt="Foto de um homem sorrindo" class="rounded-circle border border-danger">
+                        <figcaption id="nomeTime" class="mt-3"><i class="bi bi-flower2 text-danger"></i> Marco Antônio Silveira </figcaption>
+                    </figure>
+                </div>
+            </div>  
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <div class="border-top text-muted bg-light">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h2 class="mb-4">Institucional</h2>
+                        <p class="footerConteudo">
+                            <a href="#" class="text-reset">Garantia</a>
+                        </p>
+                        <p class="footerConteudo">
+                            <a href="#" class="text-reset">Trocas e Devoluções</a>
+                        </p>
+                        <p class="footerConteudo">
+                            <a href="#" class="text-reset">Central de Atendimento</a>
+                        </p>
+                        <p class="footerConteudo">
+                            <a href="#" class="text-reset">Segurança e Privacidade</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h2 class="mb-4">Redes_Sociais</h2>
+                        <p class="footerConteudo">
+                            <a href="https://twitter.com" target="_blank" class="text-reset">Twitter</a>
+                        </p>
+                        <p class="footerConteudo">
+                            <a href="https://br.linkedin.com" target="_blank" class="text-reset">LinkedIn</a>
+                        </p>
+                        <p class="footerConteudo">
+                            <a href="https://www.instagram.com" target="_blank" class="text-reset">Instagram</a>
+                        </p>
+                        <p class="footerConteudo">
+                            <a href="https://www.facebook.com" target="_blank" class="text-reset">Facebook</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h2 id="contatosFooter" class="mb-4 ms-3">Contate-nos</h2>
+                        <p class="ms-3">
+                            <a href="https://www.google.com/maps/search/Rua+dos+Lisianthus,+193/@-22.9466334,-46.9708042,15z" target="_blank" class="footerConteudo linkCor">Rua dos Lisianthus, 193<br>20045-050 Rio de Janeiro - RJ</a>
+                        </p>
+                        <p class="ms-3">
+                            <a href="mailto:contato@misticrose.com" target="_blank" class="footerConteudo linkCor">contato@misticrose.com</a>
+                        </p>
+                        <p class="ms-3">
+                            <a href="tel:2125551212" target="_blank" class="footerConteudo linkCor"> + 55 21 99875 - 4675</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="height: 80px;" class="d-block d-md-none"></div>
+        <div style="height: 50px;" class="d-none d-md-block d-lg-none"></div>
+        <div style="height: 30px;" class="d-none d-lg-block"></div>
+
+        <div class="border-top fixed-bottom text-muted bg-light">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12 col-md-4 text-center">
+                        <a href="#" class="text-decoration-none text-dark">Política de Privacidade</a>
+                    </div>
+                    <div class="col-12 col-md-4 text-center text-md-left">
+                        &copy; 2020 - Mistic Rose
+                    </div>
+                    <div class="col-12 col-md-4 text-center text-md-right">
+                        <a href="#" class="text-decoration-none text-dark">Administrar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>  
+</body>
+</html>
