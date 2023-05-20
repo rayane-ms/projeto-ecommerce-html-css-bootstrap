@@ -10,7 +10,7 @@
  
 ## :books: Descrição do Projeto:
 
-O projeto visa o desenvolvimento de um site para uma loja virtual, utilzando a linguagem HTML para desenvolver a sintaxe do site e as ferramentas CSS e Bootstrap para desenvolver a responsividade e estilos do site.
+O projeto visa o desenvolvimento de um site para uma loja virtual, utilzando a linguagem HTML para desenvolver a sintaxe do site e as ferramentas CSS e Bootstrap para desenvolver os estilos do site.
 
 ### Os requisitos para o desenvolvimento do site são:
 
