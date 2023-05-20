@@ -21,7 +21,5 @@ O projeto visa o desenvolvimento de um site para uma loja virtual, utilzando a l
 - Uma seção "Equipe", com fotos e descrições sobre a equipe da loja;
 - Um rodapé com informações sobre a loja.
 
-https://htmlpreview.github.io/?https://raw.githubusercontent.com/rayane-ms/projeto-html-css-bootstrap/main/index.html
-
 
 [^1]: O acesso através do link de referência, sem realizar o download do arquivo do projeto, pode fazer com que algumas funções do Bootstrap, como o carousel, não funcionem corretamente.
